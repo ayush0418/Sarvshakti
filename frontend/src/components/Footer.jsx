@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
               <div>
                 <h2 className="text-xl font-bold">Sarvshakti</h2>
-                <p className="text-sm text-slate-400">Financial Services</p>
+                <p className="text-sm text-slate-400"></p>
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -82,14 +82,14 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <div className="text-sm">
-                  <p className="font-medium text-white mb-1">Sarvshakti Financial Advisors</p>
-                  <p className="text-slate-400 text-xs">Investment Manager - SEBI AIF Cat 2</p>
+                  <p className="font-medium text-white mb-1">Sarvshakti Financial Advisors Private Limited</p>
+                  <p className="text-slate-400 text-xs">Investment Manager - AIF Category II</p>
                 </div>
               </li>
               <li>
                 <div className="text-sm">
-                  <p className="font-medium text-white mb-1">Sarvshakti Capital Venture</p>
-                  <p className="text-slate-400 text-xs">Merchant Banking Cat 1</p>
+                  <p className="font-medium text-white mb-1">Sarvshakti Capital Venture Limited</p>
+                  <p className="text-slate-400 text-xs">Category I Merchant Banker - In Process</p>
                 </div>
               </li>
               <li className="pt-2">
@@ -116,7 +116,7 @@ const Footer = () => {
                   href="mailto:contact@sarvshakti.com"
                   className="text-slate-400 hover:text-white transition-colors text-sm"
                 >
-                  contact@sarvshakti.com
+                  sarvshaktifin@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-3">
@@ -125,27 +125,22 @@ const Footer = () => {
                   href="tel:+912212345678"
                   className="text-slate-400 hover:text-white transition-colors text-sm"
                 >
-                  +91 22 1234 5678
+                 011 49076400
                 </a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-blue-400 mt-1 flex-shrink-0" />
-                <span className="text-slate-400 text-sm">Mumbai, Maharashtra, India</span>
+                <span className="text-slate-400 text-sm">901 D-MALL Netaji Subhash Place, Pitampura, New delhi - 110085</span>
               </li>
             </ul>
             <div className="flex space-x-4 mt-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/sarvshakti-financial-advisors-private-limited/posts/?feedView=all"
                 className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition-colors"
               >
                 <Linkedin size={18} />
               </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition-colors"
-              >
-                <Twitter size={18} />
-              </a>
+              
             </div>
           </div>
         </div>

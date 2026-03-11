@@ -15,8 +15,8 @@ export const companiesData = [
     id: 1,
     name: "Sarvshakti Financial Advisors Private Limited",
     type: "Investment Manager",
-    description: "Investment Manager of Fortune Hands Growth Fund, a SEBI registered Alternative Investment Fund (AIF) Category 2. We specialize in identifying high-growth opportunities and delivering superior risk-adjusted returns.",
-    registration: "SEBI Registered AIF Cat 2",
+    description: "Investment Manager of Fortune Hands Growth Fund, a SEBI registered Alternative Investment Fund (AIF) Category II. We specialize in identifying high-growth opportunities and delivering superior risk-adjusted returns.",
+    registration: "SEBI Registered AIF Category II",
     services: ["Fund Management", "Portfolio Advisory", "Risk Management", "Investment Strategy"],
     link: "https://fortunehand.com"
   },
@@ -24,8 +24,8 @@ export const companiesData = [
     id: 2,
     name: "Sarvshakti Capital Venture Limited",
     type: "Merchant Banking",
-    description: "Providing comprehensive merchant banking services including IPO advisory, corporate restructuring, and capital raising solutions. Currently in process of obtaining SEBI Category 1 Merchant Banking license.",
-    registration: "SEBI Registration In Process (Cat 1)",
+    description: "Providing comprehensive merchant banking services including IPO advisory, corporate restructuring, and capital raising solutions. Currently in process of obtaining SEBI Category I Merchant Banking license.",
+    registration: "SEBI Registration In Process (Category I)",
     services: ["IPO Advisory", "Fund Raising", "Corporate Finance", "M&A Advisory"],
     link: null
   }
@@ -158,27 +158,27 @@ export const portfolioData = {
 export const teamData = [
   {
     id: 1,
-    name: "Rajesh Kumar Sharma",
-    designation: "Managing Director & CEO",
-    bio: "Over 20 years of experience in investment banking and fund management. Previously worked with leading financial institutions.",
+    name: "CA Pawan kumar Garg",
+    designation: "Managing Director | Founder",
+    bio: "Leading the strategic vision and investment decisions with deep expertise in identifying high-growth opportunities across sectors",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400",
-    linkedin: "#"
+    linkedin: "https://www.linkedin.com/in/pawan-kumar-garg-b7976412/"
   },
   {
     id: 2,
-    name: "Priya Mehta",
-    designation: "Chief Investment Officer",
-    bio: "Expert in portfolio management with 15+ years experience. Specializes in equity research and risk management.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
-    linkedin: "#"
+    name: "Aayush Bansal",
+    designation: "Whole Time Director",
+    bio: "Bringing analytical rigor and market insights to investment evaluations, ensuring disciplined capital allocation",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400",
+    linkedin: "https://www.linkedin.com/in/aayush-bansal-1661b8190?originalSubdomain=in"
   },
   {
     id: 3,
-    name: "Amit Patel",
-    designation: "Head - Merchant Banking",
-    bio: "Seasoned merchant banking professional with expertise in IPO advisory and corporate finance. MBA from IIM.",
+    name: "CA Rahul Jha",
+    designation: "Compliance Officer",
+    bio: "Ensuring regulatory compliance and adherence to SEBI guidelines, maintaining transparent governance standards",
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
-    linkedin: "#"
+    linkedin: "https://www.linkedin.com/in/ca-rahul-jha-777047179/"
   }
 ];
 
@@ -215,7 +215,7 @@ export const insightsData = [
 export const contactData = {
   title: "Get in Touch",
   subtitle: "Let's discuss how we can help you achieve your financial goals",
-  email: "contact@sarvshakti.com",
-  phone: "+91 22 1234 5678",
-  address: "Mumbai, Maharashtra, India"
+  email: "sarvshaktifin@gmail.com",
+  phone: "011 49076400",
+  address: "901 D-MALL Netaji Subhash Place, Pitampura, New delhi - 110085"
 };

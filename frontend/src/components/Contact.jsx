@@ -127,16 +127,8 @@ const Contact = () => {
               <h3 className="font-semibold mb-4">Business Hours</h3>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
-                  <span>Monday - Friday</span>
-                  <span>9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Saturday</span>
-                  <span>10:00 AM - 2:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>Closed</span>
+                  <span>Monday - Saturday</span>
+                  <span>9:30 AM - 6:30 PM</span>
                 </div>
               </div>
             </Card>
@@ -171,7 +163,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-blue-600 transition-colors"
-                        placeholder="John Doe"
+                        placeholder="Enter your full name"
                       />
                     </div>
 
@@ -188,7 +180,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-blue-600 transition-colors"
-                        placeholder="john@example.com"
+                        placeholder="your.email@example.com"
                       />
                     </div>
 
@@ -204,7 +196,7 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:outline-none focus:border-blue-600 transition-colors"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 XXXXX XXXXX"
                       />
                     </div>
 

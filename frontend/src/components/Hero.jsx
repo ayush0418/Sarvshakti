@@ -77,8 +77,8 @@ const Hero = () => {
                   <TrendingUp className="text-amber-400" size={24} />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-white">₹500+ Cr</p>
-                  <p className="text-sm text-slate-400">AUM</p>
+                  <p className="text-2xl font-bold text-white">125+ Cr</p>
+                  <p className="text-sm text-slate-400">Commitment</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -103,13 +103,13 @@ const Hero = () => {
                     <div className="w-6 h-6 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-slate-900 text-sm font-bold">✓</span>
                     </div>
-                    <p className="text-slate-200">SEBI registered AIF Cat 2 and Merchant Banking expertise</p>
+                    <p className="text-slate-200">SEBI registered AIF Cat II and Merchant Banking expertise</p>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-6 h-6 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-slate-900 text-sm font-bold">✓</span>
                     </div>
-                    <p className="text-slate-200">20+ years combined experience in financial markets</p>
+                    <p className="text-slate-200">20+ years of management experience in financial markets.</p>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-6 h-6 rounded-full bg-amber-400 flex items-center justify-center flex-shrink-0 mt-1">

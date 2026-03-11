@@ -39,12 +39,16 @@ const Team = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
                 {/* LinkedIn on hover */}
+                {member.linkedin && (
                 <a
                   href={member.linkedin}
+                  target="_blank"
+                    rel="noopener noreferrer"
                   className="absolute bottom-4 right-4 w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0"
                 >
                   <Linkedin className="text-white" size={20} />
                 </a>
+                )}
               </div>
 
               {/* Content */}
@@ -76,7 +80,7 @@ const Team = () => {
             <div className="grid grid-cols-2 gap-6 pt-4">
               <div className="bg-blue-50 rounded-lg p-4">
                 <p className="text-3xl font-bold text-blue-600 mb-2">20+</p>
-                <p className="text-sm text-slate-700 font-medium">Years Combined Experience</p>
+                <p className="text-sm text-slate-700 font-medium">Years of Management Experience</p>
               </div>
               <div className="bg-amber-50 rounded-lg p-4">
                 <p className="text-3xl font-bold text-amber-600 mb-2">100%</p>

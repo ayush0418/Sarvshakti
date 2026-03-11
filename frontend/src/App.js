@@ -21,7 +21,7 @@ const Home = () => {
       <About />
       <Services />
       <Philosophy />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Team />
       <Insights />
       <Contact />
