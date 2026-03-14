@@ -89,7 +89,7 @@ const Footer = () => {
               <li>
                 <div className="text-sm">
                   <p className="font-medium text-white mb-1">Sarvshakti Capital Venture Limited</p>
-                  <p className="text-slate-400 text-xs">Category I Merchant Banker - In Process</p>
+                  <p className="text-slate-400 text-xs">Category II Merchant Banker - In Process</p>
                 </div>
               </li>
               <li className="pt-2">

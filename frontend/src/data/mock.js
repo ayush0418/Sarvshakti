@@ -24,8 +24,8 @@ export const companiesData = [
     id: 2,
     name: "Sarvshakti Capital Venture Limited",
     type: "Merchant Banking",
-    description: "Providing comprehensive merchant banking services including IPO advisory, corporate restructuring, and capital raising solutions. Currently in process of obtaining SEBI Category I Merchant Banking license.",
-    registration: "SEBI Registration In Process (Category I)",
+    description: "Providing comprehensive merchant banking services including IPO advisory, corporate restructuring, and capital raising solutions. Currently in process of obtaining SEBI Category II Merchant Banking license.",
+    registration: "SEBI Registration In Process (Category II)",
     services: ["IPO Advisory", "Fund Raising", "Corporate Finance", "M&A Advisory"],
     link: null
   }

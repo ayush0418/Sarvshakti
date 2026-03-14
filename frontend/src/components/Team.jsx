@@ -30,7 +30,7 @@ const Team = () => {
               className="group overflow-hidden border-2 border-slate-200 hover:border-blue-400 hover:shadow-2xl transition-all duration-300"
             >
               {/* Image */}
-              <div className="relative overflow-hidden bg-slate-200 h-80">
+              {/* <div className="relative overflow-hidden bg-slate-200 h-80">
                 <img
                   src={member.image}
                   alt={member.name}
@@ -38,7 +38,7 @@ const Team = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
-                {/* LinkedIn on hover */}
+                LinkedIn on hover
                 {member.linkedin && (
                 <a
                   href={member.linkedin}
@@ -49,7 +49,7 @@ const Team = () => {
                   <Linkedin className="text-white" size={20} />
                 </a>
                 )}
-              </div>
+              </div> */}
 
               {/* Content */}
               <div className="p-6">
